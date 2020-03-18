@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'sosnof';
+    src: url('fonts/SosNof Normal/Clarendon-Light-DTC.eot');
+    src: url('fonts/SosNof Normal/Clarendon-Light-DTC.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SosNof Normal/Clarendon-Light-DTC.woff2') format('woff2'),
+    url('fonts/SosNof Normal/Clarendon-Light-DTC.woff') format('woff'),
+    url('fonts/SosNof Normal/Clarendon-Light-DTC.ttf') format('truetype'),
+    url('fonts/SosNof Normal/Clarendon-Light-DTC.svg#Clarendon-Light-DTC') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans regular';
+    src: url('fonts/droidsans regular/DroidSans.eot');
+    src: url('fonts/droidsans regular/DroidSans.eot?#iefix') format('embedded-opentype'),
+    url('fonts/droidsans regular/DroidSans.woff2') format('woff2'),
+    url('fonts/droidsans regular/DroidSans.woff') format('woff'),
+    url('fonts/droidsans regular/DroidSans.ttf') format('truetype'),
+    url('fonts/droidsans regular/DroidSans.svg#DroidSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* header */
+
+header {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 3px 6px #0000002C;
+}
+.header-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo-field {
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 33px;
+    font-family: sosnof,sans-serif;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1.98px;
+}
+
+.logo-text {
+    font-size: 11px;
+    color: #7A7A7A;
+    font-family: Droid Sans regular,sans-serif;
+    text-align: end;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 20px;
+    width: 50%;
+    align-items: center;
+}
+.sign-up {
+    display: flex;
+    list-style-type: none;
+}
+.nav > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Droid Sans regular,sans-serif;
+    color: #505050;
+    letter-spacing: 0.96px;
+}
+
+.nav > li:hover:after{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #BDD531;
+    margin:0 auto;
+}
+.sign-up > li > a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Droid Sans regular,sans-serif;
+    color: #292929;
+    letter-spacing: 0.48px;
+}
+
+.sign-up > li {
+    background: #02BFDB;
+    padding: 18px 25px;
+    transition: 0.3s;
+}
+
+.sign-up :hover {
+    background: #BDD531;
+    cursor: pointer;
+
+}
+.sign-up-left {
+    margin-right: 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+/* header end */
