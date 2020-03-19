@@ -644,3 +644,94 @@ header {
 
 
 /* students container end */
+
+/* footer */
+.footer-content-top {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    background: #333333;
+}
+
+.footer-logo-name-desc > h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.footer-logo-name-desc > p{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Droid Sans regular, sans-serif;
+    margin: 5px 0 20px;
+}
+
+.footer-nav > li > a {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    margin: 0 auto;
+}
+
+.footer-nav-box::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: 25px auto;
+}
+
+.footer-navigation {
+    width: 100%;
+}
+
+.footer-desc {
+    font-size: 14px;
+    color: #fff;
+    font-family: Droid Sans regular, sans-serif;
+    margin-bottom: 25px;
+}
+
+.nav-social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin-right: 10px;
+    background: #292929;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.social-icon a > svg {
+    fill: #fff;
+}
+
+.social-icon:hover {
+    background: #BDD531;
+
+}
+
+.footer-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.aist-color {
+    color: #FFC400;
+}
+/* footer end */
