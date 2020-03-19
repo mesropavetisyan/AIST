@@ -358,3 +358,139 @@ header {
     align-items: center;
 }
 /* featured-courses end */
+/* articles-container */
+.articles-container {
+    background-color: #FAFAFA;
+}
+.articles-left-description-img {position: relative;}
+.articles-left-description-img >img {
+    width: 100%;
+    display: block;
+}
+
+.articles-left-filed {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.articles-left-description {
+    margin-right: 30px;
+}
+
+.articles-left-description-img2 {
+    width: 80%;
+}
+
+.articles-left-description-img::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background: #BDD531;
+    position: absolute;
+    right: 0;
+}
+
+.articles-field {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.articles-left-desc-title {
+    color: #292929;
+    font-size: 15px;
+    margin: 10px 0;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.articles-left-desc-paragraph {
+    font-size: 13px;
+    color: #292929;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.articles-right {
+    width: 50%;
+}
+
+.articles-paragraph {
+    margin: 20px 0;
+    font-size: 13px;
+    color: #292929;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.articles-title {
+    color: #292929;
+    font-size: 25px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.articles-btn-box {
+    display: flex;
+}
+
+.articles-btn {
+    font-size: 12px;
+    padding: 8px 20px;
+}
+
+.articles-content-bottom {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+}
+
+.articles-description-img {
+    width: 88%;
+    position: relative;
+}
+
+.articles-description-img > img {
+    width: 100%;
+    display: block;
+}
+.articles-description-img-right {
+    width: 80%;
+}
+
+.articles-desc-title {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #292929;
+    width: 90%;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.articles-desc-paragraph {
+    font-size: 13px;
+    color: #292929;
+    width: 90%;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.articles-description-img::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background: #BDD531;
+    position: absolute;
+    right: 0;
+}
+.articles-description-img-left::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 100%;
+    background: #BDD531;
+    position: absolute;
+    right: 0;
+    opacity: 0.76;
+}
+/* articles-container end */
