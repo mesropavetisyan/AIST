@@ -173,9 +173,9 @@ header {
 
 .top-content {
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
     top: 50%;
-    left: 25%;
+    left: 150px;
 }
 
 .top-text-field {
@@ -205,3 +205,75 @@ header {
     cursor: pointer;
 }
 /* top section end */
+
+/* featured-courses */
+
+.featured-courses-container{
+    background: url("images/image285.PNG") no-repeat right;
+    background-size: 20%;
+    padding: 80px 0;
+}
+
+.featured-courses-text {width: 60%;}
+
+.featured-courses-title {
+    font-size: 30px;
+    color: #292929;
+    letter-spacing: 1.5px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.featured-courses-paragraph {
+    font-size: 15px;
+    margin: 10px 0 30px;
+    color: #292929;
+    letter-spacing: 0.48px;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.featured-courses {
+    width: 80%;
+    margin: 0 150px;
+}
+
+.featured-courses-box {
+    width: 30%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 3px 7px 1px #0000002C;
+}
+
+.featured-courses-box > img {
+    width: 100%;
+}
+
+.featured-courses-field {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.featured-courses-box-title {
+    color: #292929;
+    font-size: 15px;
+    letter-spacing: 0.54px;
+    padding: 5px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.featured-courses-box-paragraph {
+    font-size: 13px;
+    letter-spacing: 0.39px;
+    padding: 0 5px 5px 5px;
+    color: #292929;
+    font-family: Droid Sans regular, sans-serif;
+}
+.featured-courses-btn {
+    font-size: 16px;
+}
+.featured-courses-btn-box {
+    margin: 50px 150px;
+}
+/* featured-courses end */
