@@ -22,18 +22,34 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Droid Sans bold';
+    src: url('fonts/droidsans bold/DroidSans-Bold.eot');
+    src: url('fonts/droidsans bold/DroidSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/droidsans bold/DroidSans-Bold.woff2') format('woff2'),
+    url('fonts/droidsans bold/DroidSans-Bold.woff') format('woff'),
+    url('fonts/droidsans bold/DroidSans-Bold.ttf') format('truetype'),
+    url('fonts/droidsans bold/DroidSans-Bold.svg#DroidSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 * {
     padding: 0;
     margin: 0;
 }
+
 /* header */
 
 header {
     background: #fff;
     width: 100%;
     box-shadow: 0 3px 6px #0000002C;
+    position: relative;
+    z-index: 1;
 }
+
 .header-content {
     width: 95%;
     display: flex;
@@ -49,7 +65,7 @@ header {
 
 .logo {
     font-size: 33px;
-    font-family: sosnof,sans-serif;
+    font-family: sosnof, sans-serif;
     color: #000;
     font-weight: bold;
     letter-spacing: 1.98px;
@@ -58,41 +74,46 @@ header {
 .logo-text {
     font-size: 11px;
     color: #7A7A7A;
-    font-family: Droid Sans regular,sans-serif;
+    font-family: Droid Sans regular, sans-serif;
     text-align: end;
+    padding-bottom: 3px;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     margin-right: 20px;
-    width: 50%;
+    width: 55%;
     align-items: center;
 }
+
 .sign-up {
     display: flex;
     list-style-type: none;
 }
+
 .nav > li > a {
     text-decoration: none;
     font-size: 16px;
-    font-family: Droid Sans regular,sans-serif;
+    font-family: Droid Sans regular, sans-serif;
     color: #505050;
     letter-spacing: 0.96px;
 }
 
-.nav > li:hover:after{
+.nav > li:hover:after {
     content: "";
     display: block;
     width: 35px;
     height: 2px;
     background-color: #BDD531;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .sign-up > li > a {
     text-decoration: none;
     font-size: 15px;
-    font-family: Droid Sans regular,sans-serif;
+    font-family: Droid Sans regular, sans-serif;
     color: #292929;
     letter-spacing: 0.48px;
 }
@@ -108,9 +129,11 @@ header {
     cursor: pointer;
 
 }
+
 .sign-up-left {
     margin-right: 15px;
 }
+
 .navigation {
     display: flex;
     align-items: center;
@@ -118,4 +141,67 @@ header {
     justify-content: flex-end;
 }
 
-/* header end */
+/* top section */
+.top {
+    background: url("images/painter-1937575_1920-1024x683.jpg") no-repeat center;
+    min-height: 80vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.top::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 254, 254, 0.71);
+}
+.top::after {
+    content: '';
+    display: block;
+    background: url("images/graffiti-508272_1920.jpg") no-repeat center;
+    width: 35%;
+    min-height: 80vh;
+    position: absolute;
+    background-size: cover;
+    right: -40px;
+    transform: rotateY(180deg) skewX(-10deg);
+    opacity: 0.83;
+}
+
+.top-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+}
+
+.top-text-field {
+    font-size: 30px;
+    width: 285px;
+    margin-bottom: 40px;
+    color: #000;
+    text-shadow: 0 3px 6px #00000036;
+    font-family: Droid Sans bold,sans-serif;
+}
+
+.btn {
+    background: #BDD531;
+    border: 1px solid #BDD531;
+    padding: 10px 30px;
+    color: #292929;
+    border-radius: 6px;
+    letter-spacing: 0.75px;
+    margin-right: 10px;
+    transition: 0.3s;
+    font-family: Droid Sans regular,sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: none;
+    cursor: pointer;
+}
+/* top section end */
