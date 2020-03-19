@@ -510,16 +510,18 @@ header {
     color: #292929;
     font-size: 25px;
     margin-bottom: 20px;
+    font-family: Droid Sans bold, sans-serif;
 }
 
 .questions-paragraph {
     color: #292929;
-    font-size: 16px;
+    font-size: 13px;
     padding: 12px 0;
     border-bottom: 1px solid #B2B2B2;
     display: flex;
     justify-content: space-between;
     max-width: 600px;
+    font-family: Droid Sans bold, sans-serif;
 }
 
 .questions-icon {
