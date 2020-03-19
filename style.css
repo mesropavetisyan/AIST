@@ -553,3 +553,94 @@ header {
     transform: rotateZ(20deg) scale(1.5);
 }
 /* questions container */
+
+/* students container */
+
+.students {
+    background: #fff;
+    overflow: hidden;
+}
+
+.students-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.students-title {
+    text-align: center;
+    color: #292929;
+    font-size: 25px;
+}
+
+.student-img {
+    width: 20%;
+    margin-right: 25px;
+}
+.student-img > img {
+    width: 100%;
+}
+
+.students-description {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.student-desc {width: 60%;}
+
+.student-speciality {
+    font-size: 13px;
+    color: #000000;
+    margin: 10px 0 20px;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.student-paragraph {
+    font-size: 13px;
+    color: #000000;
+    font-family: Droid Sans regular, sans-serif;
+    width: 95%;
+}
+
+.student-name {
+    font-family: Droid Sans bold, sans-serif;
+    color: #000;
+    font-size: 17px;
+}
+
+.students-field-box {
+    display: flex;
+    margin: 25px 0;
+}
+
+.icon-box {
+    width: 8px;
+    height: 8px;
+    border: 0.5px solid #707070;
+    display: block;
+}
+
+.icon-line {
+    display: block;
+    width: 1px;
+    height: 85px;
+    background: #C3C3C3;
+    margin: 0 auto;
+}
+.students-divider {
+    margin: 80px 70px 0 30px;
+}
+
+.students-field-right {
+    padding: 150px 0;
+}
+
+.icon-line-2 {
+    height: 130px;
+}
+
+.icon-line-3 {
+    height: 100px;
+}
+
+
+/* students container end */
