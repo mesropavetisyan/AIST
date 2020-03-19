@@ -274,6 +274,86 @@ header {
     font-size: 16px;
 }
 .featured-courses-btn-box {
-    margin: 50px 150px;
+    margin: 0 150px;
+}
+
+.featured-courses-arrow {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 10px 150px;
+}
+
+.arrow {
+    width: 5px;
+    height: 5px;
+    display: block;
+    border: 1px solid #BDD531;
+    transform: rotate(45deg);
+    border-right: none;
+    border-top: none;
+}
+
+.arrow::after {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 1px;
+    background-color: #BDD531;
+    transform: rotate(-45deg) translate(-2px, -50%);
+}
+.arrow-box {
+    border: 1px solid #BDD531;
+    padding: 5px 7px 5px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.arrow-box-right {
+    transform: rotate(180deg);
+}
+
+.human-img > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.human-cost-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+.human-content {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.human-name {
+    font-size: 10px;
+    color: #292929;
+    font-family: Droid Sans regular,sans-serif;
+}
+
+.cost-number {
+    color: #D35135;
+    font-size: 17px;
+    font-family: Droid Sans bold, sans-serif;
+}
+.cost-number-old {
+    color: #8B8B8B;
+    font-family: Droid Sans regular, sans-serif;
+    font-size: 11px;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+
+.cost-content {
+    display: flex;
+    align-items: center;
 }
 /* featured-courses end */
