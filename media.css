@@ -87,6 +87,18 @@
     .featured-courses-field {
         width: 65%;
     }
+
+    .questions-paragraph {
+        font-size: 12px;
+    }
+
+    .questions-img {
+        display: none;
+    }
+
+    .questions-container {
+        margin: 0 auto;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -221,6 +233,10 @@
 
     .featured-courses-btn-box {
         margin: 0;
+    }
+
+    .questions-paragraph {
+        font-size: 10px;
     }
 }
 
