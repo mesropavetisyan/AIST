@@ -220,6 +220,19 @@
         font-size: 11px;
         width: 100%;
     }
+
+    .all-courses-box-content {
+        width: 30%;
+    }
+
+    .course-paragraph {
+        width: 100%;
+
+    }
+    .courses-desc {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -274,6 +287,10 @@
     }
     .license {
         font-size: 10px;
+    }
+
+    .all-courses-box-content {
+        width: 45%;
     }
 }
 

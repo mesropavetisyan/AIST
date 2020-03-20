@@ -824,7 +824,7 @@ header {
     justify-content: center;
 }
 
-.featured-courses-box.all-courses-box-content {
+.featured-courses-box {
     width: 20%;
     margin: 10px;
 }
