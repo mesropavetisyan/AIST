@@ -109,6 +109,7 @@
         width: 95%;
         font-size: 30px;
     }
+
     .featured-courses-field {
         flex-direction: column;
         width: 100%;
@@ -121,9 +122,11 @@
         width: 100%;
         text-align: center;
     }
+
     .featured-courses-text {
         width: 100%;
     }
+
     .featured-courses-paragraph {
         width: 60%;
         margin: 10px auto 30px;
@@ -133,48 +136,110 @@
         width: 45%;
         margin-bottom: 15px;
     }
+
     .featured-courses-arrow {
         justify-content: center;
         width: 100%;
         margin: 0 auto
     }
+
     .featured-courses-btn-box {
         flex-direction: column;
         display: flex;
         align-items: center;
     }
+
     .featured-courses-btn {
         margin-top: 20px;
         font-size: 14px;
     }
+
+    .articles-field {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles-right {
+        order: -1;
+        width: 65%;
+    }
+
+    .articles-content-bottom {
+        flex-direction: column;
+    }
+
+    .articles-description {
+        margin-bottom: 10px;
+    }
+
+    .articles-left-filed {
+        flex-direction: column;
+    }
+
+    .articles-left-filed {
+        width: 60%;
+    }
+
+    .articles-left-description {
+        margin-bottom: 10px;
+    }
+
+    .articles-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 }
-    @media all and (max-width: 480px) {
-        .top-content {
-            left: 0;
-        }
-        .featured-courses-btn {
-            padding: 6px 15px;
-            font-size: 13px;
-            letter-spacing: 0;
-        }
+
+@media all and (max-width: 480px) {
+    .top-content {
+        left: 0;
     }
 
-    @media all and (max-width: 310px) {
-        .top-btn-content {
-            display: flex;
-            flex-direction: column;
-            width: 95%;
-            margin: 0 auto;
-        }
+    .featured-courses-btn {
+        padding: 8px 20px;
+        font-size: 10px;
+        letter-spacing: 0;
 
-        .btn {
-            margin-top: 5px;
-        }
-
-        .top-text-field {
-            font-size: 25px;
-        }
     }
+
+    .articles-btn {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .articles-paragraph {
+        font-size: 12px;
+    }
+
+    .articles-btn-box {
+        flex-direction: column;
+    }
+
+    .articles-content-bottom {
+        margin: 0;
+    }
+
+    .featured-courses-btn-box {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 310px) {
+    .top-btn-content {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+
+    .top-text-field {
+        font-size: 25px;
+    }
+}
 
 /* responsive end */
 
