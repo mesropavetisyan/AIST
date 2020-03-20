@@ -735,3 +735,69 @@ header {
     color: #FFC400;
 }
 /* footer end */
+
+/* all courses page */
+
+.recomended-courses-img {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.recomended-courses-img > img {
+    width: 100%;
+}
+
+.recomended-courses-description {
+    display: flex;
+    margin: 15px 0;
+}
+
+.recomended-courses-title {
+    color: #292929;
+    font-size: 25px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.recomended-courses {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.recomended-courses-desc {
+    width: 55%;
+}
+
+.recomended-courses-desc-title {
+    color: #292929;
+    font-size: 15px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.recomended-courses-about {
+    display: flex;
+    font-size: 13px;
+    margin: 20px 0;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.about-levels {
+    margin-right: 20px;
+}
+
+.recomended-courses-paragraph {
+    font-size: 14px;
+    color: #292929;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.recomended-courses-btn-cost-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.recomended-courses-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+/* all courses page end */
