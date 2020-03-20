@@ -200,6 +200,21 @@
         font-size: 14px;
         letter-spacing: 0;
     }
+
+    .students-field-box {
+        flex-direction: column;
+    }
+
+    .students-divider {
+        display: none;
+    }
+    .students-field-right {
+        padding: 0;
+    }
+
+    .students-description {
+        flex-direction: column;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -237,6 +252,13 @@
 
     .questions-paragraph {
         font-size: 10px;
+    }
+    .student-img {
+        width: 50%;
+    }
+
+    .student-desc {
+        width: 90%;
     }
 }
 
