@@ -1,0 +1,57 @@
+/* responsive */
+@media all and (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        z-index: 2;
+        position: relative;
+    }
+
+    .nav-checkbox:checked ~ .navigation {
+        display: flex;
+        position: fixed;
+        background-color: #fff;
+        width: 50%;
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 0;
+        right: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .sign-up {
+        flex-direction: column;
+    }
+
+    .sign-up > li {
+        background: none;
+        padding: 0;
+    }
+
+    .sign-up :hover {
+        background: none;
+        color: #02bfdb;
+
+    }
+    .sign-up-left {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .logo-field {
+        padding-left: 0;
+    }
+}
+
+/* responsive end */
+

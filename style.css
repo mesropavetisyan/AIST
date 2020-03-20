@@ -110,6 +110,23 @@ header {
     margin: 0 auto;
 }
 
+.nav-checkbox {
+    display: none;
+}
+
+.menu {
+    width: 23px;
+    display: none;
+    margin-left: auto;
+}
+
+.menu-line {
+    background: #BDD531;
+    height: 3px;
+    display: block;
+    margin: 5px 0;
+}
+
 .sign-up > li > a {
     text-decoration: none;
     font-size: 15px;
@@ -857,3 +874,5 @@ header {
 }
 
 /* courses page end */
+
+
