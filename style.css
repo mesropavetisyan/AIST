@@ -830,3 +830,30 @@ header {
     margin: 50px auto 0;
 }
 /* all courses page end */
+/* courses page */
+.courses-desc {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.course-title {
+    font-size: 25px;
+    color: #292929;
+    letter-spacing: 1.2px;
+    margin: 40px 0 20px;
+    font-family: Droid Sans bold, sans-serif;
+}
+
+.course-paragraph {
+    color: #292929;
+    font-size: 14px;
+    letter-spacing: 0.48px;
+    width: 55%;
+    font-family: Droid Sans regular, sans-serif;
+}
+
+.courses-all {
+    margin-bottom: 40px;
+}
+
+/* courses page end */
