@@ -570,6 +570,7 @@ header {
     text-align: center;
     color: #292929;
     font-size: 25px;
+    font-family: Droid Sans bold, sans-serif;
 }
 
 .student-img {
@@ -609,7 +610,7 @@ header {
 
 .students-field-box {
     display: flex;
-    margin: 25px 0;
+    margin: 25px 0 0;
 }
 
 .icon-box {
@@ -631,7 +632,7 @@ header {
 }
 
 .students-field-right {
-    padding: 150px 0;
+    padding: 150px 0 0;
 }
 
 .icon-line-2 {
@@ -823,5 +824,9 @@ header {
     justify-content: flex-end;
     width: 92%;
     font-family: Droid Sans regular, sans-serif;
+}
+
+.people-container {
+    margin: 50px auto 0;
 }
 /* all courses page end */
