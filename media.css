@@ -215,6 +215,11 @@
     .students-description {
         flex-direction: column;
     }
+
+    .footer-content-bottom {
+        font-size: 11px;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -259,6 +264,16 @@
 
     .student-desc {
         width: 90%;
+    }
+
+    .footer-content-bottom{
+        flex-direction: column;
+    }
+    .privacy {
+        order: -1;
+    }
+    .license {
+        font-size: 10px;
     }
 }
 
