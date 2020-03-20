@@ -800,4 +800,28 @@ header {
     padding: 8px 20px;
     font-size: 14px;
 }
+
+.all-courses-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-courses-box.all-courses-box-content {
+    width: 20%;
+    margin: 10px;
+}
+
+.courses-human-content {
+    min-width: 50px;
+}
+
+.courses-number {
+    font-size: 18px;
+    color: #8B8B8B;
+    display: flex;
+    justify-content: flex-end;
+    width: 92%;
+    font-family: Droid Sans regular, sans-serif;
+}
 /* all courses page end */
